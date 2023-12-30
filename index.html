@@ -68,12 +68,17 @@
         <p>Nguyễn Bảo Nguyên Đẹp Trai</p>
         <button onclick="calculateAge()">Xác nhận</button>
         <button onclick="toggleMusic()">Bật/Tắt Nhạc</button>
+        <button onclick="how()">Cách Để Có Người Yêu</button>
+        
+        
+    
+
        
         <p id="result"></p>
         <script>
+            
             snowStorm.start();
         </script>
-        
         
     </div>
     <audio id="backgroundMusic" loop>
@@ -91,6 +96,18 @@
                 backgroundMusic.pause();
             }
         }
+    </script>
+    
+        <script>
+        function how() {
+            
+            var facebookProfileUrl = "https://www.facebook.com/yournameaka/";
+            window.open(facebookProfileUrl, '_blank');
+            
+        }
+
+        
+    
     </script>
 
     <script>
