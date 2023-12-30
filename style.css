@@ -60,4 +60,19 @@ button:hover {
         transform: translateY(100vh) rotate(360deg);
     }
 }
+.note {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
 
+.note {
+    border: 2px solid #fff; /* Add a white border around the note */
+    padding: 15px; /* Add padding to the note content */
+}
