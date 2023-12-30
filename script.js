@@ -1,13 +1,13 @@
 function calculateAge() {
-    var ageInput = document.getElementById("ageInput").value;
+    var tuoi = document.getElementById("tuoi").value;
     var resultElement = document.getElementById("result");
 
-    if (ageInput !== "") {
-        var age = parseInt(ageInput);
+    if (tuoi !== "") {
+        var age = parseInt(tuoi);
         if (!isNaN(age) && age > 0) {
             resultElement.innerText = "Tuổi của bạn là: " + age + " tuổi.";
         } else {
-            resultElement.innerText = "Vui lòng nhập một giá trị tuổi hợp lệ.";
+            resultElement.innerText = "Vui lòng nhập số tuổi hợp lệ.";
         }
     } else {
         resultElement.innerText = "Vui lòng nhập tuổi của bạn.";
